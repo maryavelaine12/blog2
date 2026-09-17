@@ -42,9 +42,12 @@ export default function Home() {
             real-world problems in the future.
           </p>
 
-          <p>
-            (This is a sample website - you’ll be building a site like this on our Next.js tutorial.)
-          </p>
+<p>
+  (This is a sample website - you’ll be building a site like this on{' '}
+  <a href="https://nextjs.org/learn" target="_blank" rel="noopener noreferrer">
+    our Next.js tutorial.
+  </a>)
+</p>
         </section>
       </main>
     </div>
