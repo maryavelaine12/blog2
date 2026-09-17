@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
 <Head>
-  <title>Mary Avelaine D. Buenaventura</title>
+  <title>Blog 2</title>
   <meta name="description" content="My personal Next.js blog" />
   <link rel="icon" type="image/png" href="/favicon.png" />
 </Head>
