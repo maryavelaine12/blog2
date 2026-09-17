@@ -12,13 +12,18 @@ export default function Home() {
 </Head>
 
       <main className={styles.main}>
-        <Image
-          src="/images/profile.jpg"
-          alt="Profile Picture"
-          width={150}
-          height={150}
-          style={{ borderRadius: '50%', objectFit: 'cover' }}
-        />
+<Image
+  src="/images/profile.jpg"
+  alt="Profile Picture"
+  width={150}
+  height={150}
+  style={{
+    borderRadius: '50%',
+    objectFit: 'cover',
+    display: 'block',
+    margin: '0 auto'
+  }}
+/>
 
         <h1 className={styles.title}>
           Mary Avelaine D. Buenaventura
