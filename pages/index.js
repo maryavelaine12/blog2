@@ -27,7 +27,7 @@ export default function Home() {
   </div>
 
   <h1 className={styles.title}>
-    Mary Avelaine D. Buenaventura
+    Mary Avelaine Buenaventura
   </h1>
 
         <section style={{ maxWidth: '700px', marginTop: '30px' }}>
