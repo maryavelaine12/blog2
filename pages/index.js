@@ -11,23 +11,24 @@ export default function Home() {
   <link rel="icon" type="image/png" href="/favicon.png" />
 </Head>
 
-      <main className={styles.main}>
-<Image
-  src="/images/profile.jpg"
-  alt="Profile Picture"
-  width={150}
-  height={150}
-  style={{
-    borderRadius: '50%',
-    objectFit: 'cover',
-    display: 'block',
-    margin: '0 auto'
-  }}
-/>
+<main className={styles.main}>
 
-        <h1 className={styles.title}>
-          Mary Avelaine D. Buenaventura
-        </h1>
+  <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+    <Image
+      src="/images/profile.jpg"
+      alt="Profile Picture"
+      width={150}
+      height={150}
+      style={{
+        borderRadius: '50%',
+        objectFit: 'cover'
+      }}
+    />
+  </div>
+
+  <h1 className={styles.title}>
+    Mary Avelaine D. Buenaventura
+  </h1>
 
         <section style={{ maxWidth: '700px', marginTop: '30px' }}>
           <h2>Why I Chose My IT Specialization</h2>
